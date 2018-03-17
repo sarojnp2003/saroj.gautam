@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url('/assets/webfonts/montserrat/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url('/assets/webfonts/montserrat/Montserrat-SemiBold.otf');
+}
+
+#nav-menu {
+  padding: 10px;
+  transition: all 0.8s;
+}
+
+#nav-menu.navbar-default {
+  background-color: #fff;
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+#nav-menu a.navbar-brand {
+  font-size: 32px;
+  font-weight: 700;
+  color: #6d6f7b;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+#nav-menu.navbar-default .navbar-nav>li>a {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  color: #6d6f7b;
+  font-size: 15px;
+  /* font-weight: 700; */
+  padding: 8px 2px;
+  border-radius: 0;
+  margin: 9px 20px 0 20px;
+  letter-spacing: 0.3px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: url('assets/nav-icon/active_point_menu.png') no-repeat bottom center;
+  }
+  #nav-menu.navbar-default .navbar-nav>li>a:hover {
+    color: #00947c !important;
+    background-color: transparent;
+  }
+  .logo-align {
+    margin-top: -45%;
+  }

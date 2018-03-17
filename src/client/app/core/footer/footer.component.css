@@ -1,0 +1,29 @@
+#social-section {
+  padding: 50px 0px 45px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.social {}
+
+#social-section .social ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+#social-section .social i.fa:hover {
+  color: #00947c;
+  transform: rotate(360deg);
+}
+
+#social-section .social i.fa {
+  font-size: 26px;
+  padding: 8px 0;
+  width: 40px;
+  height: 40px;
+}
+
+#footer {
+  background: #f6f6f6;
+  padding: 15px 0 10px 0;
+}
